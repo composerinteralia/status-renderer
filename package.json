@@ -1,0 +1,17 @@
+{
+  "name": "status_server",
+  "version": "0.0.0",
+  "description": "How long have you been running?",
+  "main": "index.js",
+  "repository": "git@github.com:composerinteralia/status-server.git",
+  "author": "Daniel Colson <danieljamescolson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "serve-favicon": "^2.3.2"
+  }
+}
